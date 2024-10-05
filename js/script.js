@@ -130,3 +130,9 @@ btnToggleTheme.addEventListener("click", function () {
   document.querySelector("html").classList.toggle("dark-mode");
 });
 */
+
+const btnToggleTheme = document.querySelector("#toggle-btn");
+
+btnToggleTheme.addEventListener("click", function () {
+  document.querySelector("html").dataset.theme = "dark";
+});

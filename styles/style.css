@@ -5,12 +5,19 @@
   --btn-bg-color: #eee;
 }
 
-.dark-mode {
+[data-theme="dark"] {
   --body-bg: #000;
   --text-color: #fff;
   --border: 2px solid #f00;
   --btn-bg-color: transparent;
 }
+
+/* .dark-mode {
+  --body-bg: #000;
+  --text-color: #fff;
+  --border: 2px solid #f00;
+  --btn-bg-color: transparent;
+} */
 
 * {
   transition: all 0.2s ease;
